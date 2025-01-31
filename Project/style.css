@@ -1,0 +1,285 @@
+/* General Reset */
+/* Step 1: Reset default margins, padding, and box sizing for all elements */
+* {
+  /* margin: ; 
+    padding: ; 
+    box-sizing: ; */
+}
+
+/* Step 2: Set global styles for the body */
+body {
+  /* font-family: ; 
+    line-height: ; 
+    color: ; 
+    background-color: ; 
+    scroll-behavior: ; */
+}
+
+/* Navigation Bar Styling */
+/* Step 3: Navigation Bar Styles */
+.navbar {
+  /* background-color: ; 
+    color: ; 
+    padding: ; 
+    box-shadow: ; */
+}
+
+/* Step 4: Navbar Container Styles */
+.navbar--container {
+  /* display: ; 
+    justify-content: ; 
+    align-items: ; 
+    max-width: ; 
+    margin: ; */
+}
+
+/* Step 5: Logo Container Styles */
+.logo-container {
+  /* display: ; 
+    align-items: ; 
+    gap: ; */
+}
+
+/* Step 6: Logo Image Styles */
+.logo-img-container img {
+  /* width: ; 
+    height: ; 
+    border-radius: ; 
+    object-fit: ; */
+}
+
+/* Step 7: Logo Text Styles */
+.logo-container p {
+  /* font-size: ; 
+    font-weight: ; 
+    color: ; */
+}
+
+/* Step 8: Navigation Links Container Styles */
+.nav-links-container {
+  /* display: ; 
+    gap: ; 
+    list-style: ; */
+}
+
+/* Step 9: Navigation Link Styles */
+.nav-links-container a {
+  /* color: ; 
+    text-decoration: ; 
+    font-weight: ; 
+    transition: ; */
+}
+
+/* Step 10: Navigation Link Hover Styles */
+.nav-links-container a:hover {
+  /* color: ; */
+}
+
+/* Header Banner Styling */
+/* Step 11: Header Banner Container Styles */
+.header-banner-container {
+  /* background: ; 
+    color: ; 
+    text-align: ; 
+    padding: ; 
+    border-radius: ; */
+}
+
+/* Step 12: Header Banner Heading Styles */
+.header-banner-container h1 {
+  /* font-size: ; 
+    font-weight: ; 
+    margin-bottom: ; */
+}
+
+/* Step 13: Header Banner Paragraph Styles */
+.header-banner-container p {
+  /* font-size: ; 
+    max-width: ; 
+    margin: ; 
+    line-height: ; */
+}
+
+/* Main Section */
+/* Step 14: Main Content Container Styles */
+.main {
+  /* display: ; 
+    flex-wrap: ; 
+    gap: ; 
+    max-width: ; 
+    margin: ; 
+    padding: ; */
+}
+
+/* Step 15: Blog Post Container Styles */
+.main-posts {
+  /* flex: ; 
+    display: ; 
+    flex-direction: ; 
+    gap: ; */
+}
+
+/* Step 16: Individual Blog Post Styles */
+.main-posts article {
+  /* display: ; 
+    background-color: ; 
+    border: ; 
+    border-radius: ; 
+    overflow: ; 
+    box-shadow: ; */
+}
+
+/* Step 17: Blog Post Image Styles */
+.main-posts article img {
+  /* width: ; 
+    height: ; 
+    object-fit: ; */
+}
+
+/* Step 18: Blog Post Content Container Styles */
+.main-posts article div {
+  /* padding: ; */
+}
+
+/* Step 19: Blog Post Heading Styles */
+.main-posts h2 {
+  /* font-size: ; 
+    color: ; 
+    margin-bottom: ; */
+}
+
+/* Step 20: Blog Post Metadata Styles */
+.post-meta {
+  /* font-size: ; 
+    color: ; 
+    margin-bottom: ; */
+}
+
+/* Sidebar Styling */
+/* Step 21: Sidebar Container Styles */
+.sidebar {
+  /* flex: ; 
+    background-color: ; 
+    border: ; 
+    border-radius: ; 
+    padding: ; 
+    box-shadow: ; */
+}
+
+/* Step 22: Sidebar Heading Styles */
+.sidebar h3 {
+  /* color: ; 
+    margin-bottom: ; */
+}
+
+/* Step 23: Popular Post Container Styles */
+.popular-post {
+  /* display: ; 
+    align-items: ; 
+    margin-bottom: ; */
+}
+
+/* Step 24: Popular Post Image Styles */
+.popular-post img {
+  /* width: ; 
+    height: ; 
+    border-radius: ; 
+    object-fit: ; 
+    margin-right: ; */
+}
+
+/* Step 25: Popular Post Link Styles */
+.popular-post a {
+  /* text-decoration: ; 
+    color: ; 
+    font-size: ; 
+    transition: ; */
+}
+
+/* Step 26: Popular Post Link Hover Styles */
+.popular-post a:hover {
+  /* color: ; */
+}
+
+/* Footer Styling */
+/* Step 27: Footer Container Styles */
+.footer {
+  /* background-color: ; 
+    color: ; 
+    padding: ; 
+    margin-top: ; 
+    text-align: ; 
+    border-top: ; */
+}
+
+/* Step 28: Footer Content Styles */
+.footer-content {
+  /* display: ; 
+    flex-wrap: ; 
+    justify-content: ; 
+    gap: ; 
+    max-width: ; 
+    margin: ; */
+}
+
+/* Step 29: Footer Heading Styles */
+.footer-content h4 {
+  /* margin-bottom: ; 
+    color: ; */
+}
+
+/* Step 30: Footer Paragraph Styles */
+.footer p {
+  /* font-size: ; */
+}
+
+.footer p:last-child {
+  /* margin-top: ; 
+    color: ; */
+}
+
+/* Responsive Design */
+/* Step 31: Responsive Navbar Styles */
+@media (max-width: 768px) {
+  .navbar--container {
+    /* flex-direction: ; 
+      text-align: ; */
+  }
+
+  .nav-links-container {
+    /* flex-direction: ; 
+      gap: ; */
+  }
+
+  .header-banner-container h1 {
+    /* font-size: ; */
+  }
+
+  .header-banner-container p {
+    /* font-size: ; */
+  }
+
+  .main {
+    /* flex-direction: ; */
+  }
+
+  .main-posts article {
+    /* flex-direction: ; 
+      align-items: ; 
+      text-align: ; */
+  }
+
+  .main-posts article img {
+    /* width: ; 
+      height: ; */
+  }
+
+  .main-posts p {
+    /* font-size: ; */
+  }
+
+  .footer-content {
+    /* flex-direction: ; 
+      text-align: ; */
+  }
+}
