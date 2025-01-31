@@ -5,20 +5,67 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
 /* h1 */
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    color: #202124;
+    margin-bottom: 5px;
+}
 
 /* #subtitle */
+#subtitle {
+    font-size: 18px;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
 
 /* .flexboxContainer */
+.flexboxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 /*.flexboxContainer > div */
+.flexboxContainer > div {
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 /* a */
+a {
+    text-decoration: none;
+    color: #202124;
+}
 
 /* img */
+img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
 
 /* .flexboxContainer > div:hover */
+.flexboxContainer > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
 
